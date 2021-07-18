@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ handleDarkMode }) => {
   return (
     <div className='header'>
-      <h1 style={{ fontFamily: 'monospace' }}>Notes</h1>
+      <h1 style={{ fontFamily: 'monospace' }}>Notes Keeper</h1>
       <button
         className='save'
         onClick={() => handleDarkMode((previousDarkMode) => !previousDarkMode)}
